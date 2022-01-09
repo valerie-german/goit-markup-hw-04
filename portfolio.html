@@ -30,11 +30,19 @@
       </nav>
       <!-- Контакты -->
       <ul class="list contacts">
-        <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-        <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+        <li class="item"><a href="mailto:info@devstudio.com" class="link icon-mail">
+            <svg class="icon mail">
+              <use href="images/symbol-defs-opt.svg#icon-envelope"></use>
+            </svg>
+            info@devstudio.com</a></li>
+        <li class="item"><a href="tel:+380961111111" class="link">
+            <svg class="icon tel">
+              <use href="images/symbol-defs-opt.svg#icon-phone"></use>
+            </svg>
+            +38 096 111 11 11</a></li>
       </ul>
       </div>
-    </header>
+      </header>
     <!-- Уникальный контент страницы -->
     <main>
       <section class="section">
@@ -152,26 +160,60 @@
     <!-- Футер -->
     <footer class="footer">
       <div class="container">
-      <a href="./index.html" lang="en" class="logo-footer">Web<span class="word-studio">Studio</a>
-      <!-- Контакты -->
-      <address class="address">
-        <ul class="list">
-          <li class="location">
-            <a
-              href="https://goo.gl/maps/S1DiWHNBeh5bc1R79"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="link"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li class="contact">
-            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-          </li>
-          <li class="contact"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
+        <div class="about">
+          <a href="./index.html" lang="en" class="logo-footer">Web<span class="word-studio">Studio</a>
+          <!-- Контакты -->
+          <address class="address">
+            <ul class="list">
+              <li class="location">
+                <a href="https://goo.gl/maps/S1DiWHNBeh5bc1R79" target="_blank" rel="noopener noreferrer" class="link">г.
+                  Киев, пр-т Леси Украинки, 26</a>
+              </li>
+              <li class="contact">
+                <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+              </li>
+              <li class="contact"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+        <!-- Присоединяйся -->
+        <div class="join">
+          <b class="join-title">присоединяйтесь</b>
+    
+          <ul class="list social-media">
+            <li class="item">
+              <a href="" target="_blank" rel="noopener noreferrer" class="link sm-icon">
+                <svg class="icon" aria-label="инстаграм">
+                  <use href="./images/symbol-defs-opt.svg#icon-instagram-1"></use>
+                </svg>
+              </a>
+    
+            </li>
+            <li class="item">
+              <a href="" target="_blank" rel="noopener noreferrer" class="link sm-icon">
+                <svg class="icon" aria-label="твиттер">
+                  <use href="./images/symbol-defs-opt.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" target="_blank" rel="noopener noreferrer" class="link sm-icon">
+                <svg class="icon" aria-label="фейсбук">
+                  <use href="./images/symbol-defs-opt.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" target="_blank" rel="noopener noreferrer" class="link sm-icon">
+                <svg class="icon" aria-label="линкедин">
+                  <use href="./images/symbol-defs-opt.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
-  </body>
-</html>
+    </body>
+    
+    </html>
